@@ -1,4 +1,3 @@
-
   fetch("http://localhost:3000/quotes?_embed=likes")
     .then(response => response.json())
     .then(arrayOfQuotes => arrayOfQuotes.forEach(quote => {
